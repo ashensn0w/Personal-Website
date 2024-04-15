@@ -238,3 +238,11 @@ footer {
     margin-bottom: 10px;
     color: #EFCFD4;
 }
+
+.divider {
+    height: 1px;
+    background-color: #757575;
+    margin: 0 auto;
+    max-width: 80%;
+    margin-bottom: 40px;
+}
