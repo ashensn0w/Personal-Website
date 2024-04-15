@@ -105,9 +105,61 @@ footer {
     font-size: 25px;
 }
 
+#about .introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+
 #about p {
     font-size: 18px;
     line-height: 1.6;
+}
+
+#about .introduction p:first-child {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #EFCFD4;
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#about .introduction p:last-child {
+    font-family: 'Fira Code', monospace;
+    color: #EBECF0;
+    font-size: 19px;
+}
+
+#about .introduction .education {
+    margin-top: 20px;
+}
+
+#about .introduction .education p:first-child {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #EFCFD4;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#about .introduction .education p:last-child {
+    font-family: 'Fira Code', monospace;
+    color: #EBECF0;
+    font-size: 19px;
+}
+
+#about .introduction .skills {
+    margin-top: 20px; /* Add margin to separate from the previous paragraph */
+}
+
+#about .introduction .skills p {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #EFCFD4;
+    font-size: 30px;
+    margin-bottom: 10px; /* Add some space below the paragraph */
 }
 
 #about ul {
