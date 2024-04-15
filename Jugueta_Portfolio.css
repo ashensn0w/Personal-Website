@@ -152,31 +152,85 @@ footer {
 }
 
 #about .introduction .skills {
-    margin-top: 20px; /* Add margin to separate from the previous paragraph */
+    margin-top: 20px;
 }
 
 #about .introduction .skills p {
     font-family: 'IBM Plex Mono', monospace;
     color: #EFCFD4;
     font-size: 30px;
-    margin-bottom: 10px; /* Add some space below the paragraph */
+    margin-bottom: 10px;
 }
 
-#about ul {
+.skills .heading {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    color: #EFCFD4;
+    font-style: italic;
+}
+
+.skills ul {
     list-style-type: none;
 }
 
-#about ul ul {
-    margin-left: 20px;
+.skills ul ul {
+    list-style-type: none;
+    font-family: 'Fira Code', monospace;
+    color: #EBECF0;
+    font-size: 19px;
 }
 
 #about a {
     color: #EFCFD4;
 }
 
+#about .download-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#about .download-link a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #EFCFD4;
+    color: #222222;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#about .download-link a:hover {
+    background-color: #555555;
+}
+
+#certifications {
+    text-align: center;
+}
+
+#certifications p {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #EFCFD4;
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
 #certifications img {
     display: block;
     margin: 0 auto;
+}
+
+#projects {
+    text-align: center;
+}
+
+#projects p {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #EFCFD4;
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 #projects a {
