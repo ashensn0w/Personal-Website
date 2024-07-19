@@ -32,6 +32,12 @@ ul {
     list-style-type: none;
 }
 
+.skills-list {
+    display: inline;
+    margin-right: 20px;
+    background-color: #555555;
+}
+
 li {
     display: inline;
     margin-right: 20px;
@@ -208,12 +214,59 @@ footer {
     text-align: center;
 }
 
-#certifications p {
+#certifications .certifications-name {
     font-family: 'IBM Plex Mono', monospace;
     color: #EFCFD4;
     font-size: 65px;
     margin-bottom: 20px;
     font-weight: bold;
+}
+
+#certifications .cert-name {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #EFCFD4;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#certifications .cert-container {
+    background-color: #555555;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-family: 'Consolas', monospace;
+    margin: 10px;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#certifications .all-cert-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#certifications .cert-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+#certifications p {
+    font-family: 'Fira Code', monospace;
+    color: #EBECF0;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%; 
 }
 
 #certifications img {
@@ -225,7 +278,7 @@ footer {
     text-align: center;
 }
 
-#projects p {
+#projects .projects-name {
     font-family: 'IBM Plex Mono', monospace;
     color: #EFCFD4;
     font-size: 65px;
@@ -233,10 +286,56 @@ footer {
     font-weight: bold;
 }
 
-#projects a {
-    display: block;
-    margin-bottom: 40px;
+#projects .proj-name {
+    font-family: 'IBM Plex Mono', monospace;
     color: #EFCFD4;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#projects .proj-container {
+    background-color: #555555;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-family: 'Consolas', monospace;
+    margin: 10px;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#projects .all-proj-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#projects .proj-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+#projects p {
+    font-family: 'Fira Code', monospace;
+    color: #EBECF0;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+
+#projects img {
+    display: block;
+    margin: 0 auto;
 }
 
 .divider {
@@ -245,4 +344,28 @@ footer {
     margin: 0 auto;
     max-width: 80%;
     margin-bottom: 40px;
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #555555;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.floating-button:hover {
+    background-color: #EFCFD4;
+    transform: scale(1.1);
 }
